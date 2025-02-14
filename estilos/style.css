@@ -42,3 +42,21 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
+header > nav.navegation > ul {
+    position: relative;
+    display: flex;
+}
+
+header > nav.navegation > li{
+    list-style: none;
+}
+
+header > nav.navegation > li > a{
+    color: #ffff;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 2em;
+    margin-left: 100px;
+}
